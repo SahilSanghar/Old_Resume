@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="containter">
+            <nav>
+            <img src="images/logo.jpg" class="logo">
+            <ul>
+            <li> <a href="#">Home</a></li>        
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+            </nav>
+            <div class="header-text">
+                <p>Full-stack web development</p>
+                <h1>Hello, I'm <span>Sahil</span><br>Sanghar From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------------------------------- About Section ------------------------------------------------------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/cvimg.jpg" alt="portfolio-pic" id="cvimg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, tenetur soluta nesciunt porro voluptatibus dolores ratione fuga veniam a voluptatum!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="openTab(event, 'Skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab(event, 'experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab(event, 'education')">Education</p>
+
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span><br>Frontend</li>
+                            <li><span>CSS</span><br>Frontend</li>
+                            <li><span>JavaScript</span><br>Frontend</li>
+                            <li><span>React.js</span><br>Framework</li>
+                            <li><span>Node</span><br>Backend</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content " id="experience">
+                        <ul>
+                            <li><span>Tetris</span><br>Frontend</li>
+                            <li><span>2022-present</span><br>IADC | PDEU</li>
+                            <li><span>Summer Internship</span><br>ONGC | Mumbai</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content " id="education">
+                        <ul>
+                            <li><span>2023-present</span><br>Delta 3.0 | Apna College</li>
+                            <li><span>2020-present</span><br>Petroleum Engineering | PDEU</li>
+                            <li><span>2018-2021</span><br>PCT | GUNI</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
