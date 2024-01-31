@@ -91,7 +91,7 @@ nav ul li a:hover::after {
 }
 
 #about {
-    padding: 80px 0;
+    padding: 60px 0;
     color: #ababab;
 }
 
@@ -112,6 +112,10 @@ nav ul li a:hover::after {
 
 .about-col-2 {
     flex-basis: 60%;
+}
+
+.about-col-2 p{
+    padding: 5px 0;
 }
 
 .sub-title {
@@ -385,7 +389,7 @@ nav .fas {
         padding-right: 1px;
     }
     #header {
-        background-image: url(./images/phone-background.png);
+        background-image: url(./images/potrait_pic.jpg);
     }
 
     .header-text {
